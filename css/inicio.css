@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(7, 0, 24);
+
+}
+.tela
+{   
+    margin-left: 20px;
+    overflow: hidden;
+    font-family: 'Silkscreen', cursive; 
+    position: absolute;
+    width:90%;
+    height: 80vh;
+    padding: 40px;
+    background:url(../framessmartbob/backgrounds/bc-gif.gif);
+    justify-content: center;
+    color: aliceblue;
+    text-align: center;
+    border: 5px solid black;
+
+}
+
+
+.link{
+    padding: 60px;
+}
+
+#link, #insta, #github{
+    font-family: 'Silkscreen', cursive;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    border: 5px solid black;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    animation: float 6s ease-in-out infinite;
+}
+
+
+#link:hover,
+#github:hover,
+#insta:hover
+{
+    background-color: black;
+    color: rgb(88, 0, 252);
+    animation: botao 6s ease-in-out infinite;
+    
+}
